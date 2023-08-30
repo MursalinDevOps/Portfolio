@@ -1,0 +1,118 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex  ;
+    align-items: center;
+}
+.nav-title{
+    font-weight:800;
+    font-size: 45px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.button-primary{
+    background-color: #FD6E0A ;
+    color:#FFFFFF ;
+    border-radius: 5px ;
+    top: 68px;
+    left: 1256px;
+    font-style:bold ;
+    margin-left: 35px;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: large;
+}
+.button-secondary{
+    border-radius: 5px ;
+    top: 68px;
+    left: 1256px;
+    font-style:bold ;
+    margin-left: 35px;
+    width: 200px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: large;
+}
+.banner{
+    margin: 0px 200px ;
+    display: flex ;
+    align-items: center; 
+}
+.banner-title{
+font-weight:700;
+font-size: 85px;
+margin-bottom: 20px;
+}
+.banner-sub-title{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 5px;
+}
+.text-docs{
+color:#757575 ;
+width: 585px;
+height: 60px;
+font-size: 18px;
+margin-bottom: 30px;
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right , left ;
+}
+.main{
+    width: 1140px;
+    height: 550px;
+    top: 967px;
+    left: 230px;
+    border-radius: 10px;
+    padding-left: 250px;
+    padding-right:230px;
+    
+}
+.about{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px ;
+    padding: 130px 150px ;
+}
+
+.section-title{
+text-align: center ;
+padding-bottom: 30px ;
+font-weight: 700;
+font-size: 35px ;
+}
+.section-description{
+padding-bottom: 30px ;
+    
+}
+.about-info-container{
+    display:flex ;
+    justify-content: space-around;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 20;
+    color: #757575;
+}
+.info-description{
+    
+    
+    font-size:18px ;
+    color:#474747 ;
+}
+
